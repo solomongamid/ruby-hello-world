@@ -1,7 +1,11 @@
-class HelloWorld
-   def self.hello
-       #
-       # YOUR CODE GOES HERE
-       #
+      class HelloWorld
+   def initialize(name)
+      @name = name.capitalize
    end
-end 
+   def sayHi
+      puts "Hello #{@name}!"
+   end
+end
+
+hello = HelloWorld.new("suliman")
+hello.sayHi
