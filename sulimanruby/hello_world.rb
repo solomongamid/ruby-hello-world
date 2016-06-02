@@ -9,7 +9,7 @@
    end
 end
 
-hello = HelloWorld.new("World")
+hello = HelloWorld.new("suliman")
 hello.sayHi
 
 
